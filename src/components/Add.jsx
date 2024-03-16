@@ -77,7 +77,7 @@ console.log(video);
   return (
     <>
       <div className='d-flex'>
-        <h5 className='me-1 mt-2'>Upload New Video</h5>
+        <h5 className='mt-2'>Upload New Video</h5>
         <button onClick={handleShow} className='btn'><FontAwesomeIcon icon={faCloudArrowUp} size='xl' /></button>
       </div>
 

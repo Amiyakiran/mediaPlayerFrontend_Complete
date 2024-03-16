@@ -15,9 +15,9 @@ function Home() {
 
   return (
     <>
-      <div className="container d-flex justify-content-between align-items-center mt-5">
+      <div className="container d-flex align-items-center mt-5">
           <Add setUploadVideoStatus={setUploadVideoStatus} />
-          <Link id='link' to={'/watchHistroy'}>Watch History <FontAwesomeIcon icon={faClockRotateLeft} /></Link>
+          <Link className='ms-auto' id='link' to={'/watchHistroy'}><span id='w'>Watch History</span> <FontAwesomeIcon icon={faClockRotateLeft} className='me-4' /></Link>
       </div>
       <div className='row p-4'>
             <div className="col-md-9">

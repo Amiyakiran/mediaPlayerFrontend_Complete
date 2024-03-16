@@ -13,16 +13,13 @@ function App() {
     <>
     {/* react-router-dom */}
     <Header/>
-    <Routes>
+ 
+    <Routes className={'mb-5'}>
       <Route path='/' element={<LandingPage/>} />
       <Route path='/home' element={<Home/>}  />
       <Route path='/watchHistroy' element ={<WatchHistory/>}  />
     </Routes>
-
-   
-     
-    
-     <Footer/>
+    <Footer/>
     </>
   )
 }

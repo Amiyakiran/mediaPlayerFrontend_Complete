@@ -58,7 +58,7 @@ function View({uploadVideoStatus, setDragOutVideoStatus}) {
                   <Row className='w-100' droppable="true" onDragOver={(e)=>dragOver(e)}  onDrop={(e)=>videoDrop(e)}>
                         {   video?.length>0?
                               video?.map((item)=>(
-                                    <Col sm={12} md={6} lg={4} xl={3}>
+                                    <Col sm={12} md={6} lg={4} xl={3} className='d-flex justify-content-center align-items-center'>
                                     <VideoCard displayVideo={item} setDeleteVideoStatus={setDeleteVideoStatus} />
                                    </Col>
                               )):<p className='text-warning fs-3'>No video Uploaded Yet</p>

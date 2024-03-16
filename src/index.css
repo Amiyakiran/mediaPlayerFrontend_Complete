@@ -5,3 +5,12 @@ body {
    
     
 }
+@media(max-width:600px){
+    #link{
+        font-size: 20px;
+    }
+    #w{
+        display: none;
+    }
+    
+}
